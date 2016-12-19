@@ -5,7 +5,7 @@ var localStorageWrapper = require('humble-localstorage')
 function LocalStorageStore (key) {
   return {
     get: function get () {
-      return Promise.resolve(localStorageWrapper.getObject(key))
+      return Promise.resolve(localStorageWrapper.getObject(key) || {})
     },
     set: function set (account) {
       localStorageWrapper.setObject(key, account)
