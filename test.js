@@ -25,6 +25,18 @@ test('store.get()', function (t) {
     .catch(t.error)
 })
 
+test('store.get() without state', function (t) {
+  localstorage.clear()
+  var store = new Store('cache')
+
+  store.get()
+    .then(function (state) {
+      t.deepEqual(state, {})
+      t.end()
+    })
+    .catch(t.error)
+})
+
 test('store.set()', function (t) {
   localstorage.clear()
   var store = new Store('cache')
