@@ -31,7 +31,7 @@
   "devDependencies": {
     "istanbul": "^0.4.5",
     "istanbul-coveralls": "^1.0.3",
-    "standard": "^8.6.0",
+    "standard": "^9.0.0",
     "tape": "^4.6.3",
     "semantic-release": "^6.3.2"
   }
