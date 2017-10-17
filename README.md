@@ -1,5 +1,7 @@
 # async-get-set-store
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/gr2m/async-get-set-store.svg)](https://greenkeeper.io/)
+
 > async get/set/unset API for one object using localStorage
 
 [![Build Status](https://travis-ci.org/gr2m/async-get-set-store.svg?branch=master)](https://travis-ci.org/gr2m/async-get-set-store)
