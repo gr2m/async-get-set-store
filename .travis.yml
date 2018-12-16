@@ -11,5 +11,5 @@ branches:
     - /^greenkeeper.*$/
 
 after_success:
-- npm run semantic-release
+- npx semantic-release
 - npm run coverage && npm run coverage:upload
