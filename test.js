@@ -14,12 +14,12 @@ test('constructor', function (t) {
 })
 
 test('store.get()', function (t) {
-  localstorage.setObject('cache', {foo: 'bar'})
+  localstorage.setObject('cache', { foo: 'bar' })
   var store = new Store('cache')
 
   store.get()
     .then(function (state) {
-      t.deepEqual(state, {foo: 'bar'})
+      t.deepEqual(state, { foo: 'bar' })
       t.end()
     })
     .catch(t.error)
@@ -41,16 +41,16 @@ test('store.set()', function (t) {
   localstorage.clear()
   var store = new Store('cache')
 
-  store.set({foo: 'bar'})
+  store.set({ foo: 'bar' })
     .then(function (state) {
-      t.deepEqual(localstorage.getObject('cache'), {foo: 'bar'})
+      t.deepEqual(localstorage.getObject('cache'), { foo: 'bar' })
       t.end()
     })
     .catch(t.error)
 })
 
 test('store.set()', function (t) {
-  localstorage.setObject('cache', {foo: 'bar'})
+  localstorage.setObject('cache', { foo: 'bar' })
   var store = new Store('cache')
 
   store.unset()
