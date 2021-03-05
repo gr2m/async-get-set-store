@@ -9,10 +9,7 @@
     "test": "node test.js",
     "posttest": "standard"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/gr2m/async-get-set-store.git"
-  },
+  "repository": "github:gr2m/async-get-set-store",
   "keywords": [
     "localstorage",
     "api",
@@ -20,10 +17,6 @@
   ],
   "author": "",
   "license": "Apache-2.0",
-  "bugs": {
-    "url": "https://github.com/gr2m/async-get-set-store/issues"
-  },
-  "homepage": "https://github.com/gr2m/async-get-set-store#readme",
   "dependencies": {
     "humble-localstorage": "^2.0.0"
   },
