@@ -25,6 +25,6 @@
     "istanbul-coveralls": "^1.0.3",
     "standard": "^14.0.2",
     "tape": "^5.0.0",
-    "semantic-release": "^17.0.0"
+    "semantic-release": "^19.0.3"
   }
 }
